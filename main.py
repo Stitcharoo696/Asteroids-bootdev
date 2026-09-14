@@ -1,5 +1,6 @@
 import pygame
 from logger import log_state
+from player import Player
 
 def main():
     pygame.init()
@@ -13,12 +14,15 @@ def main():
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
     inf_loop = False
 
+    player_ship = Player(SCREEN_WIDTH/2, SCREEN_HEIGHT/2)
 
     while inf_loop != True:
+        
         log_state()
         for event in pygame.event.get():
             pass
         screen.fill("black")
+        player_ship.draw(screen)
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 return
