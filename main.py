@@ -20,14 +20,16 @@ def main():
         
         log_state()
         for event in pygame.event.get():
-            pass
-        screen.fill("black")
-        player_ship.draw(screen)
-        for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 return
-        pygame.display.flip()
         dt = clock.tick(60) / 1000
+        screen.fill("black")
+        player_ship.update(dt)
+        player_ship.draw(screen)
+
+       
+        pygame.display.flip()
+        
         #print(f"{dt}")
 
 
