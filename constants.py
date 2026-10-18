@@ -1,3 +1,4 @@
+#container script for all constant variables used within the game, including screen dimensions, player ship properties, asteroid properties, shot properties, and scoring properties
 SCREEN_WIDTH = 1280
 SCREEN_HEIGHT = 720
 PLAYER_RADIUS = 20
@@ -13,3 +14,4 @@ PLAYER_SHOOT_SPEED = 500
 PLAYER_SHOOT_COOLDOWN_SECONDS = 0.3
 START_SCORE = 0
 TINY_COLORS = ["yellow", "blue", "red"]
+EXPLOSION_RADIUS = 100
