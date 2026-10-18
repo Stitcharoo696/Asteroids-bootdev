@@ -1,6 +1,6 @@
-This was a project from a Python learning site boot.dev
+This was a project from a Python learning site Boot.dev
 While the base function of the Asteroids game is from the learning path I have made my own modifications to it to make it more uniquely mine.
-I did use "code assist" AI in for education on Python functionality with boot.dev's teaching AI assistant.
+I did use Boot.dev's "code assist" AI for education on Python functionality with boot.dev's teaching AI assistant.
 
 The parts of the Asteroids code that is mine are:
 scoring system and score display
